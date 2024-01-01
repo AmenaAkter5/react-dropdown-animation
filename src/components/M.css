@@ -1,0 +1,36 @@
+/* @keyframes swingIn {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes swingOut {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.swing-in {
+  animation-name: swingIn;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.swing-out {
+  animation-name: swingOut;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  visibility: hidden;
+} */

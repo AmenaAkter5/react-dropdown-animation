@@ -1,0 +1,32 @@
+/* @keyframes dropdownScaleOpacity {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes dropdownScaleOpacityOut {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+  }
+  
+  .dropdown-enter {
+    animation: dropdownScaleOpacity 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+      forwards;
+  }
+  
+  .dropdown-exit {
+    animation: dropdownScaleOpacityOut 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+      forwards;
+  }
+   */

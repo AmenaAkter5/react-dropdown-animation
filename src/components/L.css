@@ -1,0 +1,50 @@
+/* @keyframes rubberBandIn {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  25% {
+    transform: scale(1.25);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(0.75);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes rubberBandOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(0.75);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+}
+
+.rubber-band-in {
+  animation-name: rubberBandIn;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.rubber-band-out {
+  animation-name: rubberBandOut;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  visibility: hidden;
+} */
